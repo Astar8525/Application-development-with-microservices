@@ -1,0 +1,31 @@
+# Navigate to the product details microservice directory
+cd product-details-python
+
+# Create virtual environment and activate
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Deploy using Flask or other method (example: run Flask)
+export FLASK_APP=app.py
+flask run
+
+# Navigate to the dealer pricing microservice directory
+cd dealer-pricing-nodejs
+
+# Install dependencies
+npm install
+
+# Start the server
+node index.js
+
+# Clone the repository
+git clone https://github.com/your-org/dealer-evaluation-frontend.git
+
+# Navigate into the project
+cd dealer-evaluation-frontend
+
+nano index.html
+
