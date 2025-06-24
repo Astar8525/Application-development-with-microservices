@@ -1,0 +1,5 @@
+# Clone the repository
+git clone https://github.com/your-org/dealer-evaluation-frontend.git
+
+# Navigate into the project
+cd dealer-evaluation-frontend
