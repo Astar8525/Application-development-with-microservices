@@ -1,0 +1,13 @@
+# Navigate to the product details microservice directory
+cd product-details-python
+
+# Create virtual environment and activate
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Deploy using Flask or other method (example: run Flask)
+export FLASK_APP=app.py
+flask run
